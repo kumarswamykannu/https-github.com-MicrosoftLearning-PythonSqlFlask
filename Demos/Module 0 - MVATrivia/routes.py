@@ -2,7 +2,7 @@ from flask import Flask, url_for, request, render_template;
 from app import app;
 import redis;
 
-#r = redis.StrictRedis(host='flaskmva.redis.cache.windows.net',port=6380,ssl=True,db=0, charset="utf-8", decode_responses=True, password='kxmLxHPfw5Xx8piaTlyv5VrPBBkKMoNTG6TNta+Pd5I=');
+r = redis.StrictRedis(host='flaskmva.redis.cache.windows.net',port=6380,ssl=True,db=0, charset="utf-8", decode_responses=True, password='dp1Rm7EnFx7+k/PacMVK7GW/WiuYuEbR2vygPVhSgGg=');
 
 # server/
 @app.route('/')

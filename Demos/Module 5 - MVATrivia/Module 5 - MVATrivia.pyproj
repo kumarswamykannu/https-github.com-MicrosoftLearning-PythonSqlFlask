@@ -16,7 +16,7 @@
     <PythonWsgiHandler>{StartupModule}.wsgi_app</PythonWsgiHandler>
     <Name>Module 5 - MVATrivia</Name>
     <RootNamespace>Module 5 - MVATrivia</RootNamespace>
-    <InterpreterId>{3d00772d-dfa1-42d8-83b5-7d7468825717}</InterpreterId>
+    <InterpreterId>{9666d85c-e362-42c1-bf41-0d32eb868980}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -45,8 +45,13 @@
     <Content Include="TriviaMVAApp\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="TriviaMVAApp\" />
+    <Folder Include="TriviaMVAApp\models\" />
+    <Folder Include="TriviaMVAApp\templates\" />
+  </ItemGroup>
+  <ItemGroup>
     <Interpreter Include="env\">
-      <Id>{3d00772d-dfa1-42d8-83b5-7d7468825717}</Id>
+      <Id>{9666d85c-e362-42c1-bf41-0d32eb868980}</Id>
       <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
       <Version>3.4</Version>
       <Description>env (Python 3.4)</Description>
@@ -56,11 +61,6 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X86</Architecture>
     </Interpreter>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TriviaMVAApp\" />
-    <Folder Include="TriviaMVAApp\models\" />
-    <Folder Include="TriviaMVAApp\templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

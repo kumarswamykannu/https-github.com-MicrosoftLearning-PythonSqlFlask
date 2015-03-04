@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\GeekTrainer\Source\Repos\PythonSqlFlask\Demos\Module 0 - MVATrivia\env"
+$env:VIRTUAL_ENV="C:\Users\chrhar\Source\Repos\PythonSqlFlask\Demos\Module 0 - MVATrivia\env"
 
 # Set the prompt to include the env name
 # Make sure _OLD_VIRTUAL_PROMPT is global

@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\GeekTrainer\Source\Repos\PythonSqlFlask\Demos\Module 0 - MVATrivia\env"
+set "VIRTUAL_ENV=C:\Users\chrhar\Source\Repos\PythonSqlFlask\Demos\Module 0 - MVATrivia\env"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
